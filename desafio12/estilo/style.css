@@ -53,21 +53,33 @@ a:hover{
 section{
     padding-top:10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 4vw;
+}
+section p{
+    padding-bottom: 1px;
+}
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+} 
+section#img2{
+    background-image: url('../imagens/background002.jpg');
 }
 .normal{
     background-color: white;
     color: black;
 }
 .imagem{
-    background-color: darkgray;
+    background-color: rgba(47, 46, 46, 0.775);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.268);
+    background-attachment: fixed;
 }
 .imagem p {
-    background-color: rgba(0, 0, 0, 0.141);
+    background-color: rgba(0, 0, 0, 0.544);
     display: inline-block;
     padding: 5px;
   
